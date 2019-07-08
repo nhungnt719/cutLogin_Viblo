@@ -1,0 +1,206 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.body {
+    display: inline-block;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px){
+section {
+    overflow: auto;
+}
+.section-box {
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 1.5rem 0.5rem;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    background-color: #fff;
+    overflow: auto;   
+    color: #303133;
+    transition: .3s;
+    }
+}
+@media (min-width: 768px) {
+.section-box {
+        position: absolute;
+        width: 40%;
+        text-align: center;
+        box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+        border-radius: 4px;
+        border: 1px solid #ebeef5;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+    }
+header {
+    text-align: center;
+}
+.header-text{
+    font-size: 20px;
+    margin: 0 0 8px;
+    font-family: inherit;
+    color: #303133;
+    margin-bottom: 20px;
+}
+img {
+    width: 100px;
+    height: 46.5px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.form-input {
+    display: flex;
+    justify-content: stretch;
+    height: 62px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    line-height: normal;
+    width: 100%;
+    border-collapse: initial;
+    border-spacing: 0;
+}
+::placeholder {
+    color: rgb(198, 198, 202);
+  }
+.input--i {
+    position: absolute;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    height: 36px; 
+    background-color: #f5f7fa;
+    color: #909399;
+    border: 1px solid #dcdfe6;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 13%;
+}
+i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input {
+    position: absolute;
+    margin-left: 12%;
+    padding: 0 15px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: middle;
+    height: 36px;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #dcdfe6;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+@media (max-width: 768px){
+input {
+    width: 70vw;
+}
+}
+@media (min-width: 768px){
+input {
+    width: 70%;
+}
+}
+.btn-primary {
+    padding: 12px 20px;
+    margin: 10px 0px;
+    background: #66b1ff;
+    border-color: #66b1ff;
+    display: inline-block;
+    line-height: 1;
+    border: 1px solid #dcdfe6;
+    font-size: 14px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    width: 93%;
+}
+.btn-primary:hover {
+    background: #85baf3;
+    boder-color: #85baf3;
+}
+.btn-footer:hover {
+    color: #409eff;
+    border-color: #c6e2ff;
+    background-color: #ecf5ff;
+}
+small {
+    font-size: 90%;
+    font-weight: 400;
+}
+.form-link-text {
+    margin: 8px 28px;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+hr {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border: 0.5px solid rgb(231, 227, 227);
+    margin: 0 10px 0 20px;
+}
+.footer-text {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 768px){
+.footer-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    text-align: center;
+}
+}
+@media (min-width: 768px){
+.footer-button {
+    display: flex;
+    padding: 0 15px;
+    text-align: center;
+    flex-direction: row;
+}
+}
+.btn-footer {
+    display: inline-block;
+    font-weight: 400;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    height: 37px;
+}
